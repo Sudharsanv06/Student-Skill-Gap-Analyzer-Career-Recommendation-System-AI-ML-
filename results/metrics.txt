@@ -1,0 +1,32 @@
+============================================================
+MODEL TRAINING RESULTS - DAY 3
+Student Skill Gap Analyzer & Career Recommendation System
+============================================================
+
+DATASET INFORMATION:
+------------------------------------------------------------
+Total Samples: 40
+Training Samples: 32
+Testing Samples: 8
+Number of Classes: 11
+
+MODEL COMPARISON:
+------------------------------------------------------------
+Model                     Train Acc    Test Acc     F1-Score    
+------------------------------------------------------------
+Logistic Regression       0.8750       0.3750       0.2714      
+Random Forest             1.0000       0.6250       0.5750      
+
+BEST MODEL:
+------------------------------------------------------------
+Model Used: Random Forest
+Test Accuracy: 0.6250 (62.50%)
+Precision: 0.6042
+Recall: 0.6250
+F1-Score: 0.5750
+
+SAVED MODEL FILES:
+------------------------------------------------------------
+Model: models/career_prediction_model.pkl
+Vectorizer: models/tfidf_vectorizer.pkl
+Label Encoder: models/label_encoder.pkl
