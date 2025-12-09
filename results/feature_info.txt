@@ -1,0 +1,49 @@
+============================================================
+FEATURE ENGINEERING SUMMARY - DAY 2
+Student Skill Gap Analyzer & Career Recommendation System
+============================================================
+
+DATASET INFORMATION:
+------------------------------------------------------------
+Total Samples: 40
+Number of Job Roles: 11
+Job Roles: ai engineer, backend developer, data analyst, data engineer, data scientist, database administrator, devops engineer, frontend developer, ml engineer, mobile developer, qa engineer
+
+FEATURE EXTRACTION (TF-IDF):
+------------------------------------------------------------
+Total Features Extracted: 100
+Max Features Limit: 100
+N-gram Range: (1, 2)
+Feature Matrix Shape: (40, 100)
+Sparsity: 95.93%
+
+TRAIN-TEST SPLIT:
+------------------------------------------------------------
+Training Samples: 32
+Testing Samples: 8
+Test Size: 20%
+Random State: 42
+Stratified: No (small dataset)
+
+TOP 20 FEATURES:
+------------------------------------------------------------
+python.................................. 5.4189
+javascript.............................. 3.2428
+sql..................................... 2.4418
+data.................................... 1.9698
+aws..................................... 1.5365
+react................................... 1.3621
+spring.................................. 1.3343
+java.................................... 1.3343
+mongodb................................. 1.2674
+keras................................... 1.1008
+node.................................... 1.0941
+pandas.................................. 1.0895
+excel................................... 1.0673
+powerbi................................. 1.0673
+typescript.............................. 1.0362
+tensorflow.............................. 0.8903
+css javascript.......................... 0.8658
+html css................................ 0.8658
+css..................................... 0.8658
+html.................................... 0.8658
